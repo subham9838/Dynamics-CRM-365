@@ -47,7 +47,7 @@ namespace Dynamics_CRM_365
 
                 if(ecCourse.Entities.Count > 0)
                 {
-                    throw new Exception("Child record of student course found. cannot delete this record.");
+                    throw new Exception("Child record of student course found. can not delete this record.");
                 }
             }
             catch (Exception ex)
